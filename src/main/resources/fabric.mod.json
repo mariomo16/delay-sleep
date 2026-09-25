@@ -10,7 +10,7 @@
 	"contact": {
 		"sources": "https://github.com/mariomo16/delay-sleep"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/delay-sleep/icon.png",
 	"environment": "*",
 	"entrypoints": {
