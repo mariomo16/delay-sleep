@@ -1,14 +1,12 @@
 {
-	"required": true,
-	"package": "ortega.delaysleep.mixin",
-	"compatibilityLevel": "JAVA_25",
-	"mixins": [
-		"BedRuleMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
-	}
+  "required": true,
+  "package": "ortega.delaysleep.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": ["BedRuleMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
 }

@@ -1,37 +1,31 @@
 {
-	"schemaVersion": 1,
-	"id": "delay-sleep",
-	"version": "${version}",
-	"name": "delay-sleep",
-	"description": "Delays the minimum time at which you can sleep in a bed.",
-	"authors": [
-		"Mario Morales Ortega"
-	],
-	"contact": {
-		"sources": "https://github.com/mariomo16/delay-sleep"
-	},
-	"license": "MIT",
-	"icon": "assets/delay-sleep/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"ortega.delaysleep.DelaySleep"
-		],
-		"client": [
-			"ortega.delaysleep.client.DelaySleepClient"
-		]
-	},
-	"mixins": [
-		"delay-sleep.mixins.json",
-		{
-			"config": "delay-sleep.client.mixins.json",
-			"environment": "client"
-		}
-	],
-	"depends": {
-		"fabricloader": ">=0.19.5",
-		"minecraft": "~26.3",
-		"java": ">=25",
-		"fabric-api": "*"
-	}
+  "schemaVersion": 1,
+  "id": "delay-sleep",
+  "version": "${version}",
+  "name": "delay-sleep",
+  "description": "Delays the minimum time at which you can sleep in a bed.",
+  "authors": ["Mario Morales Ortega"],
+  "contact": {
+    "sources": "https://github.com/mariomo16/delay-sleep"
+  },
+  "license": "MIT",
+  "icon": "assets/delay-sleep/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["ortega.delaysleep.DelaySleep"],
+    "client": ["ortega.delaysleep.client.DelaySleepClient"]
+  },
+  "mixins": [
+    "delay-sleep.mixins.json",
+    {
+      "config": "delay-sleep.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
 }
