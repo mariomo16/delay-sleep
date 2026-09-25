@@ -3,13 +3,12 @@
 	"id": "delay-sleep",
 	"version": "${version}",
 	"name": "delay-sleep",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Delays the minimum time at which you can sleep in a bed.",
 	"authors": [
-		"Me!"
+		"Mario Morales Ortega"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/mariomo16/delay-sleep"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/delay-sleep/icon.png",

@@ -3,7 +3,7 @@
 	"package": "ortega.delaysleep.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"BedRuleMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
