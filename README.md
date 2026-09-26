@@ -23,12 +23,11 @@ The `config/delay-sleep.json` file is created on first launch:
 | Key            | Applies when        | Default | Vanilla |
 | -------------- | ------------------- | ------- | ------- |
 | `minTickClear` | Clear weather       | 17843   | 12542   |
-| `minTickRain`  | Rain or thunderstorm | 13188   | 12010   |
+| `minTickRain`  | Rainy weather       | 13188   | 12010   |
 
 Values range from `0` to `23999` (one full day) and are given in ticks since the
 start of the day cycle (tick `0` = 6:00 AM). By default, `minTickClear` is
-~11:50 PM and `minTickRain` ~7:11 PM. Dimensions with a fixed time (nether,
-end) are not affected.
+~11:50 PM and `minTickRain` ~7:11 PM.
 
 ## Building
 
